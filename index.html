@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132188451-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132188451-1');
+</script>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Paleora</title>
+
+<link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+<style> 
+body {
+  background-color: #1a1d23;
+  color: #bfbfbf;
+  font-family: verdana, tahoma, arial;
+}
+
+h1 {
+  font-family: 'Charm';
+  font-size: 44px;
+  text-align: center;
+  color: #fff;
+  }
+  
+h2 {
+  font-family: 'Charm';
+  font-size: 26px;
+  color: #fff;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  }
+
+#block {
+  height: 500px;
+  display: block;
+  }
+  
+.content {
+  width: 40%;
+  min-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 400px;
+  margin-top: 100px;
+  }
+  
+  hr {
+	height: 6px;
+	background: url(images/tic.png) repeat-x 0 0;
+    border: 0;
+	}
+	
+.mySlides {display:none;}
+
+b {
+  color: #1d9c53;
+  }
+  
+b.or {
+  color: #d67b25;
+  }
+  
+u {
+  color: #fff;
+  }
+  
+#footer {
+  font-size: 12px;
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  }
+</style>
+</head>
+
+
+
+<body>
+
+<br /><br /><br /><br />
+<center><img src="images\paleoralogo.png" /></center>
+
+   <div class="content">
+   <center><img src="images\rexscaled.gif" width="80%"/></center><br /><br /><br /><hr>
+   <h1>Website under construction.</h1>
+   
+	<hr><br /><br />
+
+   <center>
+   Join the <b>Discord</b>, follow us on <b>Twitter</b>, and subscribe on <b>Youtube</b> to keep up with <b class="or">development</b> of the game!<br /><br /><br /><br />
+   <a href="https://discord.gg/udhHvNW"><img src="images\discordicon.png" /></a> <a href="https://twitter.com/owleydev"><img src="images\twittericon.png" /></a> <a href="https://www.youtube.com/channel/UCzbXC5lSTsj8QSsc0V6FFZQ"><img src="images\youtubeicon.png" /></a>
+   </center>
+	  </div>
+	  
+	  <div id="footer">
+	  Copyright © 2019 Owley
+	  </div>
+	  
+	  
+	  
+	  
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	 
+</body>
+
+
+
+
+</html>
